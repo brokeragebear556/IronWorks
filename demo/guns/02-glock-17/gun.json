@@ -1,0 +1,42 @@
+{
+  "name": "Glock 17 Gen5",
+  "short": "Demo gun · 9mm full-size pistol",
+  "order": 2,
+  "type": "pistol",
+  "platform": "pistol",
+  "fit": "glock17",
+  "caliber": "9mm",
+  "twist": "1:9.84",
+  "status": "owned",
+  "price": 599,
+  "notes": "Demo gun that ships with the app. The price is an example, not a quote.",
+  "views": { "lower": "Frame", "upper": "Slide" },
+  "sources": [],
+  "links": [{ "url": "https://us.glock.com", "label": "glock.com" }],
+  "specs": {
+    "brand": "Glock",
+    "model": "G17 Gen5",
+    "caliber": "9mm",
+    "barrelLength": "4.49\"",
+    "overallLength": "7.95\"",
+    "height": "5.47\"",
+    "capacity": "17+1",
+    "weight": "22.04 oz (empty)"
+  },
+  "cfg": {
+    "barrel": 4.49, "slide": 7.95, "height": 5.47, "finish": "black", "frame": "black", "threaded": false,
+    "muzzle": null, "thread": "none", "magCap": 17
+  },
+  "build": [
+    { "slot": "slide", "label": "Slide", "name": "Glock 17 Gen5 slide (factory)", "source": "factory", "factory": { "name": "Glock 17 Gen5 slide (factory)" } },
+    { "slot": "pbarrel", "label": "Barrel", "name": "4.49\" Marksman barrel (factory)", "source": "factory", "factory": { "name": "4.49\" Marksman barrel (factory)" } },
+    { "slot": "muzzle", "label": "Compensator", "name": "", "source": "factory", "factory": { "name": "" } },
+    { "slot": "psights", "label": "Sights", "name": "Factory polymer", "source": "factory", "factory": { "name": "Factory polymer" } },
+    { "slot": "frame", "label": "Frame", "name": "Glock 17 Gen5 frame (factory)", "source": "factory", "factory": { "name": "Glock 17 Gen5 frame (factory)" } },
+    { "slot": "ptrigger", "label": "Trigger", "name": "Factory flat-face", "source": "factory", "factory": { "name": "Factory flat-face" } },
+    { "slot": "pctl", "label": "Controls", "name": "Ambi slide stop (factory)", "source": "factory", "factory": { "name": "Ambi slide stop (factory)" } },
+    { "slot": "mag", "label": "Magazine", "name": "Glock OEM G17 17-Round", "pid": "mag-glock-oem-g17-17-round", "source": "factory", "factory": { "name": "Glock OEM G17 17-Round", "pid": "mag-glock-oem-g17-17-round" } }
+  ],
+  "attachments": [],
+  "checks": []
+}

@@ -1,0 +1,62 @@
+{
+  "triggers": {
+    "milspec": { "name": "Mil-spec single-stage", "color": "#9aa0a7", "style": "curved", "note": "Typically 7–8 lb with some grit." },
+    "sabre": { "name": "PSA Sabre two-stage (DLC)", "color": "#141518", "hammer": "#26272a", "style": "curved", "note": "A decent two-stage. No upgrade needed." },
+    "factory1522": { "name": "S&W 15-22 factory", "color": "#6f7378", "style": "curved", "note": "Heavy and gritty." },
+    "alg": { "cost": 70, "name": "ALG ACT", "price": "~$65–75 (from memory)", "color": "#4a4d52", "style": "curved", "note": "Smoothed mil-spec. Same weight, much less grit." },
+    "claw": { "cost": 89.99, "name": "PSA Sabre Claw two-stage", "price": "$89.99 at PSA", "color": "#141518", "hammer": "#26272a", "style": "curved", "note": "About 3.5–3.75 lb total." },
+    "larue": { "cost": 135, "name": "LaRue MBT-2S two-stage", "price": "~$135", "color": "#7d8086", "style": "curved", "note": "Best value two-stage on the list." },
+    "ssae": { "cost": 190, "name": "Geissele SSA-E two-stage", "price": "~$190 on sale, $245–279 full", "color": "#3f454c", "style": "curved", "note": "Listed for both AR-15 and AR-10." },
+    "flat": { "cost": 200, "name": "Flat-face single-stage (Rise, Timney etc.)", "price": "~$150–250", "color": "#8c2b2b", "style": "flat", "note": "Shown to compare the flat trigger shoe." },
+    "ra140": { "cost": 130, "name": "RISE RA-140", "price": "~$130", "color": "#5c6066", "style": "curved", "note": "One customer answer says it fits the 15-22. Confirm with RISE first." },
+    "timney": { "cost": 260, "name": "Timney 3 lb AR-15 + KNS pins", "price": "~$242 + pins", "color": "#b0b4ba", "style": "flat", "note": "One retailer recommends KNS anti-rotation pins for the 15-22." }
+  },
+  "triggerUpgrades": {
+    "ar15": ["alg", "claw", "larue", "ssae", "flat"],
+    "ar10": ["ssae"],
+    "1522": ["ra140", "timney"]
+  },
+  "chargingHandles": {
+    "mil": { "name": "Mil-spec", "model": "mil" },
+    "aim": { "name": "AIM mil-spec", "price": "$7.95", "model": "mil" },
+    "raptor": { "cost": 84, "name": "Radian Raptor (ambi)", "price": "~$84 sale, $95–105", "model": "raptor" },
+    "raptorlt": { "name": "Radian Raptor LT", "model": "raptorlt" },
+    "airborne": { "name": "Geissele Airborne", "model": "airborne" }
+  },
+  "finishes": {
+    "anodized": "Black anodized",
+    "ddc": "Desert Dirt Color",
+    "fde": "Flat Dark Earth",
+    "odgreen": "OD green",
+    "grey": "Sniper grey"
+  },
+  "muzzles": {
+    "a2": "Birdcage flash hider",
+    "comp": "Compensator / brake",
+    "sf4p": "4-prong flash hider"
+  },
+  "attachments": {
+    "reddot": { "name": "Red dot (micro tube)", "group": "Optics", "for": "rifle", "example": "Aimpoint T-2", "positions": true },
+    "holo": { "name": "Holographic sight", "group": "Optics", "for": "rifle", "example": "EOTech EXPS3", "positions": true },
+    "lpvo": { "name": "LPVO / rifle scope", "group": "Optics", "for": "rifle", "example": "Vortex Strike Eagle 1-8x24", "positions": true },
+    "magnifier": { "name": "Magnifier", "group": "Optics", "for": "rifle", "example": "Vortex Micro3x", "positions": true },
+    "buis": { "name": "Backup iron sights", "group": "Optics", "for": "rifle", "example": "Magpul MBUS Pro" },
+    "light": { "name": "Weapon light", "group": "Lights and lasers", "for": "rifle", "example": "SureFire M600DF", "positions": true, "sides": true },
+    "laser": { "name": "Laser / IR unit", "group": "Lights and lasers", "for": "rifle", "example": "Holosun LS321", "positions": true },
+    "suppressor": { "name": "Suppressor", "group": "Muzzle", "for": "any", "example": "SilencerCo Omega 36M" },
+    "foregrip": { "name": "Vertical foregrip", "group": "Grips and support", "for": "rifle", "example": "BCM Vertical Grip Mod 3", "positions": true },
+    "handstop": { "name": "Handstop / angled grip", "group": "Grips and support", "for": "rifle", "example": "Magpul M-LOK Hand Stop", "positions": true },
+    "bipod": { "name": "Bipod", "group": "Grips and support", "for": "rifle", "example": "Magpul MOE bipod", "positions": true },
+    "sling": { "name": "Sling with QD mount", "group": "Grips and support", "for": "rifle", "example": "Blue Force Gear Vickers sling" },
+    "magazine": { "name": "Magazine", "group": "Other", "for": "rifle", "example": "Magpul PMAG 30 Gen M3" },
+    "pistolOptic": { "name": "Pistol red dot", "group": "Handgun", "for": "pistol", "example": "Holosun 507C" },
+    "pistolLight": { "name": "Pistol light", "group": "Handgun", "for": "pistol", "example": "SureFire X300U" }
+  },
+  "attachmentFinishes": {
+    "black": "Black",
+    "fde": "Flat Dark Earth",
+    "ddc": "Desert Dirt Color",
+    "odgreen": "OD green",
+    "grey": "Grey"
+  }
+}

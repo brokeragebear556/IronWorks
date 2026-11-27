@@ -1,0 +1,39 @@
+# ---- Personal data: never uploaded ----
+# Your guns (folders, photos, receipts, undo history). Only demo/guns ships with the app.
+guns/*
+!guns/README.md
+!guns/readme.md
+# Your database: logs, records, settings, price history, values
+data/workbench.db*
+data/ironworks.db*
+data/cache/
+# Exports you download from the app
+collection-*.json
+ironworks-*.json
+collection-inventory-*.csv
+ironworks-inventory-*.csv
+*-build-sheet.txt
+# Notes and one-off scripts written for your own collection
+docs/discussion-summary.md
+tools/add_builds_2026_11_26.py
+tools/set_prices_2026_11_26.py
+tools/restore_1522_platform.py
+# The earlier single-page version (it has your guns built in)
+legacy/
+# Saved product pages and PDFs, if any end up in this folder
+*.pdf
+/*.html
+
+# ---- Build output and local tools ----
+.venv/
+.venv-linux/
+__pycache__/
+.pytest_cache/
+web/node_modules/
+web/dist/
+*.tmp
+.claude/
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

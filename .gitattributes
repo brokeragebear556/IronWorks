@@ -1,0 +1,3 @@
+# Keep line endings right on both systems if the folder is put in git
+*.sh text eol=lf
+*.bat text eol=crlf
